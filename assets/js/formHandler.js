@@ -10,6 +10,8 @@ document
             Name: document.getElementById("form-contact-name").value,
             Email: document.getElementById("form-contact-email").value,
             Message: document.getElementById("form-contact-message").value,
+            PhoneNumber: document.getElementById("form-contact-phoneNumber")
+              .value,
           },
         },
       ],
