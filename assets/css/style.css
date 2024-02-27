@@ -1683,14 +1683,17 @@ ul.check-marks li:before {
 .feature {
   position: relative;
   margin-bottom: 30px;
+  text-align: center;
 }
 .feature h3 {
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 20px;
 }
-.feature p {
+.feature span {
+  font-size: 15px;
   margin-top: 15px;
   margin-bottom: 25px;
+  color: black !important;
 }
 .feature.has-icon i {
   position: absolute;
