@@ -33,6 +33,19 @@
       type="text/css"
     />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+    <style>
+      /* For WebKit browsers like Chrome and Safari */
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+          margin: 0;
+      }
+
+      /* For Mozilla Firefox */
+      input[type='number'] {
+          -moz-appearance: textfield;
+      }
+  </style>
 
     <title>Luxofy - Architecture & Real Estate Onepage Landing page</title>
   </head>
@@ -887,7 +900,7 @@
                         <br />
                         <br />
                         +91 7969033999<br />
-                        <a href="#">montaigne@luxofy.in</a>
+                        <a href="#">sales@luxofy.in</a>
                       </address>
                     </div>
                     <div class="col-md-6 col-sm-6">
@@ -933,6 +946,7 @@
                       <div class="col-md-6 col-sm-6">
                         <div class="form-group">
                           <input
+                          
                             type="email"
                             class="form-control"
                             id="form-contact-email"
@@ -949,14 +963,16 @@
                     <div class="row">
                       <div class="col-md-12">
                         <div class="form-group">
-                          <textarea
+                          <input
+                          type="number"
+
                             class="form-control"
                             id="form-contact-phoneNumber"
                             rows="1"
                             name="phoneNumber"
                             placeholder="Your phoneNumber"
                             required
-                          ></textarea>
+                          ></input>
                         </div>
                         <!--end form-group -->
                       </div>
@@ -1020,7 +1036,7 @@
             <div class="col-md-8 col-sm-8">
               <div class="contact-data text-align-right">
                 <figure>+91 7969033999</figure>
-                <a href="#">montaigne@luxofy.in</a>
+                <a href="#">sales@luxofy.in</a>
               </div>
             </div>
             <!--end col-md-8-->
