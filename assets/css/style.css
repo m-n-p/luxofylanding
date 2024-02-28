@@ -1683,7 +1683,6 @@ ul.check-marks li:before {
 .feature {
   position: relative;
   margin-bottom: 30px;
-  text-align: center;
 }
 .feature h3 {
   font-size: 25px;
@@ -3609,7 +3608,11 @@ form .status i {
   }
 
   .feature.has-icon .description {
-    padding-left: 30px;
+    padding-left: 0px !important;
+  }
+
+  .feature.has-icon .description h3 {
+    text-align: left !important;
   }
 
   .panel-group.background-solid .panel:last-child {
