@@ -691,6 +691,7 @@ address {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=60);
   opacity: 0.6;
   line-height: 20px;
+  font-size: 15px;
 }
 
 ul {
@@ -1657,6 +1658,7 @@ ul.check-marks li:before {
 }
 .detail.left-align .title .framed {
   padding-right: 100px;
+  font-size: 25px;
 }
 .detail.right-align .gallery {
   padding-right: 70px;
@@ -1698,6 +1700,7 @@ ul.check-marks li:before {
   margin-top: 15px;
   margin-bottom: 25px;
   color: black !important;
+  opacity: 0.6;
 }
 .feature.has-icon i {
   position: absolute;
