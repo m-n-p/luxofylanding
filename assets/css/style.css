@@ -24,6 +24,11 @@ Body copy:		'Montserrat', sans-serif; 13px;
 Headers:		'Montserrat', sans-serif;
 
 -------------------------------------------------------------------*/
+
+.padblock {
+  padding: 70px 0 0 0 !important;
+}
+
 /* 1. Header */
 .navigation {
   -moz-transition: 0.5s ease;
@@ -3497,6 +3502,10 @@ form .status i {
   }
 }
 @media (max-width: 767px) {
+  .padblock {
+    padding: 30px 0 0 0 !important;
+  }
+
   body {
     font-size: 12px;
   }
